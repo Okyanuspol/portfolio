@@ -5,9 +5,13 @@
 }
 
 body {
-    background-image: linear-gradient(aqua, rgb(30, 255, 0));
+    background-image: linear-gradient(aqua, rgb(103, 243, 85));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h1 {
     font-size: 25px;
+    margin-top: 50px;
 }
