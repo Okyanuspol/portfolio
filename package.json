@@ -1,0 +1,17 @@
+{
+  "name": "mein-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass ./styles/main.scss style.css",
+    "watch": "sass --watch ./styles/main.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.75.0"
+  },
+  "description": ""
+}
