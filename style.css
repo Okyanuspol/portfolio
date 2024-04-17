@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(aqua, rgb(30, 255, 0));
+}
+
+h1 {
+    font-size: 25px;
+}
