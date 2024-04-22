@@ -140,9 +140,14 @@ main {
   background-size: cover;
   width: 100vw;
   padding: 50px;
+  padding-left: 60px;
 }
 .about-me h3 {
-  font-size: 30px;
+  font-size: 40px;
+}
+.about-me p {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .erste {
@@ -165,6 +170,7 @@ main {
 
 h3 {
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .erste p {
@@ -172,11 +178,12 @@ h3 {
 }
 
 .erste p:hover {
-  transform: scale(1.5);
-  background-color: rgba(137, 43, 226, 0.433);
+  transform: scale(1.3);
+  background-color: rgba(115, 15, 209, 0.433);
   color: white;
   padding: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .zweite {
@@ -184,16 +191,50 @@ h3 {
   padding: 30px;
   width: 40%;
   border-radius: 20px;
+  margin-left: 80px;
+}
+.zweite h3 {
+  color: #FF570A;
 }
 .zweite h4 {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 .zweite p {
   color: white;
   margin: 5px;
   padding-top: 5px;
+  font-size: 20px;
+}
+.zweite .html {
+  margin-left: 60px;
+}
+.zweite .html .technologie-2 {
+  padding-left: 33px;
+}
+.zweite .html .technologie-3 {
+  padding-left: 60px;
+}
+.zweite .html .technologie-4 {
+  padding-left: 100px;
+}
+.zweite .html .technologie-5 {
+  padding-left: 170px;
+}
+.zweite .html .one {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.zweite .html .one:hover {
+  transform: scale(1.2);
+}
+.zweite .html-uber {
+  display: flex;
+  margin-top: 60px;
+}
+.zweite .html-uber img {
+  display: block;
 }
 
 .zweite img {
@@ -209,6 +250,16 @@ h3 {
   padding: 40px;
   color: white;
   font-size: 40px;
+}
+.contact h3 {
+  font-size: 40px;
+}
+.contact button {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 30px;
+  width: 20%;
+  background-color: aqua;
 }
 .contact input {
   background-color: rgb(212, 196, 196);
