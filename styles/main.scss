@@ -15,10 +15,7 @@
 }
 
 body {
-    background-image: url(technology-3435575_1280.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #2a2c39;
     width: 100vw;
     height: 100vh;
     
@@ -26,20 +23,21 @@ body {
 
 h1 {
     font-size: 60px;
-    color: rgb(193, 241, 16);
+    color: aqua;
     font-family: "Pacifico";
     padding-top: 20px;
-}
+} 
 
 header {
     width: 100%;
     height: 90px;
    //  background-color: rgba(247, 70, 226, 0.547);
     position: fixed;
-    top: 150px;
+    top: 130px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: purple;
 } 
 header img {
     display: block;
@@ -50,16 +48,21 @@ header img {
 header ul {
     display: flex;
     list-style-type: none;
+    
 }
  header ul a {
     text-decoration: none;
     font-size: 30px;
     margin-left: 20px;
-    color: aquamarine;
+    color: purple;
  } 
 
  main {
-    margin-top: 150px;
+    margin-top: 80px;
+    background-image: url(./images/ufo-1265186_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
  }
  .about-me {
     display: flex;
@@ -73,9 +76,13 @@ header ul {
     background-size: cover;
     width: 100vw;
     padding: 50px;
+    
+    h3 {
+      font-size: 30px;
+    }
  }
  .erste {
-    width: 45%;
+    width: 40%;
     height: 500px;
     margin-right: 50px;
     border-radius: 20px;
@@ -84,8 +91,8 @@ header ul {
  }
  .erste-img {
     display: block;
-    width: 80%;
-    height: 300px;
+    width: 60%;
+    height: 200px;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -101,7 +108,7 @@ header ul {
  .erste p:hover {
     transform: scale(1.5);
     background-color: rgba(137, 43, 226, 0.433);
-    color: rgb(21, 14, 14);
+    color: white;
     padding: 10px;
     border-radius: 10px;
  }
@@ -109,7 +116,18 @@ header ul {
  .zweite {
     background-color: rgba(128, 128, 128, 0.513);
     padding: 30px;
-    width: 50%;
+    width: 40%;
+    border-radius: 20px;
+    h4 {
+      margin-top: 5px;
+      font-size: 20px;
+      color: white;
+    }
+     p {
+      color: white;
+      margin: 5px;
+      padding-top: 5px;
+     }
  }
 
  .zweite img {
@@ -118,18 +136,19 @@ header ul {
     border-radius: 50%;
  }
 
- .technologie {
-   width: 100%;
-   height: 800px;
-   background-color:pink;
-}
 .contact {
     width: 100%;
     height: 400px;
-    background-color: $color-primary-bronze;
+    background-color: #2a2c39;
     padding: 40px;
     color: white;
     font-size: 40px;
+
+    input {
+      background-color: rgb(212, 196, 196);
+      width: 400px;
+      height: 40px;
+    }
 }
 
 footer {

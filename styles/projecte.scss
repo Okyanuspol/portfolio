@@ -1,4 +1,60 @@
 .projecte {
-    background-color: $color-primary-orange;
+    background-image: url(./images/ufo-1265186_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    width: 100%;
+
+    img {
+        width: 80%;
+        height: 40%;
+        transition-duration: 1.5s;
+        border-radius: 20px;
+    }
+    img:hover {
+        transform: scale(1.5);
+    }
+
+    .project-container {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        div { 
+            padding: 20px;
+            height: 200px;
+            width: 45%;
+            margin-bottom: 40px;
+            margin-right: 30px;
+            background-image: url(./images/space-4152623_1280.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 10px solid rgb(167, 8, 203);
+            color: white;
+            border-radius: 10px;
+
+            h4 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    h2 {
+        color: white;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+    
 }

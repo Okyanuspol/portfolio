@@ -13,5 +13,13 @@
   "dependencies": {
     "sass": "^1.75.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okyanuspol/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Okyanuspol/portfolio/issues"
+  },
+  "homepage": "https://github.com/Okyanuspol/portfolio#readme",
   "description": ""
 }
